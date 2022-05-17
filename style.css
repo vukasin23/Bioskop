@@ -1,0 +1,119 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: grey;
+    font-family:sans-serif;
+    
+}
+.container{
+
+    max-width: 1300px;
+    margin: auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    
+    margin-top: 30px;
+}
+
+.container-item{
+
+    width: 20%;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.container-item img{
+    width: 100%;
+    max-height: 130px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    position: relative;
+    
+}
+.container-item h2{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 10%;
+    margin-left: 10px;
+}
+.informacije{
+    height: 100px;
+    font-weight: bold;
+    color: white;
+}
+.ocenaFilma{
+    
+    font-size: 20px;
+
+}
+.Cena{
+    font-size: 25px;
+}
+.dugme{
+    margin-top: 120px;
+    align-self: center;
+    padding: 15px;
+    border: 0px  ;
+    border-radius: 8px;
+    background-color: aqua;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+   
+    
+}
+.dugme:hover{
+    
+    align-self: center;
+    padding: 15px;
+    border: 0px;
+    border-radius: 8px;
+    background-color: rgb(35, 172, 172);
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    
+}
+.kupljeno{
+   
+    width: 20%;
+    height: 400px;
+    border: 1px solid black;
+    border-radius: 8px;
+    background-color: rgb(29, 29, 29);
+    display: flex;
+    flex-direction: column;
+}
+.kupljeno img{
+    width: 100%;
+    max-height: 130px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    position: relative;
+    
+}
+.kupljeno h2{
+    position: absolute;
+    color: rgb(255, 255, 255);
+    top: 10%;
+    margin-left: 10px;
+}
+.potroseno-para{
+    
+    margin: 50px auto;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 8px;
+    width: 500px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+}
